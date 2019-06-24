@@ -30,8 +30,11 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
     "eslint": "^6.0.0",
     "eslint-plugin-react": "^7.14.1",
-    "nodemon": "^1.19.1"
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "react-test-renderer": "^16.8.6"
   }
 }
