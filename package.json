@@ -1,0 +1,22 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodriguezandrade/Own-Development-Environment-for-Node-and-React.git"
+  },
+  "author": "Jonathan Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodriguezandrade/Own-Development-Environment-for-Node-and-React/issues"
+  },
+  "homepage": "https://github.com/rodriguezandrade/Own-Development-Environment-for-Node-and-React#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
