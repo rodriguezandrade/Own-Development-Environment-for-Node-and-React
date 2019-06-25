@@ -1,9 +1,17 @@
 import React from 'react';
+// import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+ import { Navbar } from 'react-bootstrap';
 
-export default function App() {
+ const app = () =>{
     return (
-        <div>
+        <div className='Nav'>
             Hello World
+
+           <Navbar/>
     </div>
     );
-}
+ }
+
+ export default app;
+
+ 

@@ -1,13 +1,12 @@
 import express from 'express';
-import React from 'react';
-import ReactDOMServer from 'react-dom/server';
+import React from 'react'; 
 import App from '../components/App';
 
 const server = express();
 server.use(express.static('dist'));
 
 server.get('/', (request, response) => {
-    const tag = ReactDOMServer.renderToString(<App />);
+    const tag =  <App /> ;
 
     response.send(`
     <html>
@@ -22,4 +21,4 @@ server.get('/', (request, response) => {
   `)
 });
 
-server.listen(5000, () => null);
+server.listen(5001, () => null);
