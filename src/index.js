@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import App from './components/App';
 
-ReactDOM.hydrate(
+ReactDOM.render(
   <App />,
   document.getElementById('helloWorld'),
 );
