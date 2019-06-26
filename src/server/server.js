@@ -21,8 +21,4 @@ server.get('/', (request, response) => {
   `)
 });
 
-<<<<<<< HEAD
-server.listen(5002, () => null);
-=======
-server.listen(5001, () => null);
->>>>>>> 58682e094ba2a140b72a620572b5654e52da633a
+server.listen(5003, () => null);
