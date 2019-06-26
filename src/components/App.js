@@ -1,14 +1,15 @@
-import React from 'react';
-// import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
- import { Navbar } from 'react-bootstrap';
+import React from 'react'; 
 
 const App = () => {
     return (
-        <div className='Nav'>
-            Hello World
+        <div className='container'>
+         <h1>
+         Hello World s
+         </h1>   
 
-       <Navbar/>
-    </div>
+         <button type="button" className="btn btn-primary">Primary</button>
+           
+        </div>
     );
 }
 
