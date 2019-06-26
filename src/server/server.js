@@ -17,8 +17,8 @@ server.get('/', (request, response) => {
         <div id="helloWorld">${tag}</div>
         <script src="/main.js"></script>
       </body>
-    </html>
+    </html> 
   `)
 });
 
-server.listen(5003, () => null);
+server.listen(5000, () => null);
