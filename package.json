@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
-    "start": "npm-run-all -p dev-server dev-bundle",
+    "dev": "npm-run-all -p dev-server dev-bundle",
     "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
     "dev-bundle": "webpack -wd",
     "prod": "webpack -p"

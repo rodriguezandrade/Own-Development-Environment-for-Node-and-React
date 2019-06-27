@@ -9,14 +9,21 @@ const App = () => {
     ];
     return (
         <div className='container'>
+            <Navbar  ></Navbar>
             <body>
-                <Navbar data={navbarBuilder}></Navbar>
-                <h1> Hello World this is a h1 </h1>
-
-                <button type="button" className="btn btn-primary">Primary</button>
-                <Footer></Footer>
-
+                <div className="jumbotron">
+                    <h1 className="display-4">Body!</h1>
+                    <p className="lead">his is Body</p>
+                    <hr className="my-4" />
+                    <p>This is Body</p>
+                    <p className="lead">
+                        <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    </p>
+                </div>
+                <Footer> </Footer>
             </body>
+
+            
         </div>
     );
 }
